@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+
+/* float代用
+「zoom: 1;」はIE6対策 */
+.fl1 		{ padding-left: 1em; margin-top: -1.8em;zoom: 1;}
+.fl2 		{ padding-left: 2em; margin-top: -1.8em;zoom: 1;}
+.fl3 		{ padding-left: 3em; margin-top: -1.8em;zoom: 1;}
+.fl4 		{ padding-left: 4em; margin-top: -1.8em;zoom: 1;}
+.fl5 		{ padding-left: 5em; margin-top: -1.8em;zoom: 1;}
+.fl6 		{ padding-left: 6em; margin-top: -1.8em;zoom: 1;}
+.fl7 		{ padding-left: 7em; margin-top: -1.8em;zoom: 1;}
+.fl8 		{ padding-left: 8em; margin-top: -1.8em;zoom: 1;}
+.fl9 		{ padding-left: 9em; margin-top: -1.8em;zoom: 1;}
+.fl10 		{ padding-left: 10em; margin-top: -1.8em;zoom: 1;}
+.fl11 		{ padding-left: 11em; margin-top: -1.8em;zoom: 1;}
+.fl12 		{ padding-left: 12em; margin-top: -1.8em;zoom: 1;}
+.fl14 		{ padding-left: 14em; margin-top: -1.8em;zoom: 1;}
+.fl17 		{ padding-left: 17em; margin-top: -1.8em;zoom: 1;}
+.fl20 		{ padding-left: 20em; margin-top: -1.8em;zoom: 1;}
+
+.fl_r		{ float:right; margin: 0 0 30px 20px;}
+.fl_l		{ float: left; margin: 0 20px 30px 0;}
+
+
+/* マージン */
+.mrg05 		{margin: 5px 0;}
+.mrg10 		{margin: 10px 0;}
+.mrg15 		{margin: 15px 0;}
+.mrg20 		{margin: 20px 0;}
+.mrg25 		{margin: 25px 0;}
+.mrg30 		{margin: 30px 0;}
+
+.mrg05t 	{margin-top: 5px;}
+.mrg10t 	{margin-top: 10px;}
+.mrg15t 	{margin-top: 15px;}
+.mrg20t 	{margin-top: 20px;}
+.mrg25t 	{margin-top: 25px;}
+.mrg30t 	{margin-top: 30px;}
+.mrg50t 	{margin-top: 50px;}
+
+.mrg05b 	{margin-bottom: 5px;}
+.mrg10b 	{margin-bottom: 10px;}
+.mrg15b 	{margin-bottom: 15px;}
+.mrg20b 	{margin-bottom: 20px;}
+.mrg25b 	{margin-bottom: 25px;}
+.mrg30b 	{margin-bottom: 30px;}
+.mrg50b 	{margin-bottom: 50px;}
+
+.mrg1		{margin: 2em 0;}
+.mrg2		{margin: 4em 0;}
+.mrg3		{margin: 6em 0;}
+
+.mrg1t		{margin-top: 2em;}
+.mrg2t		{margin-top: 4em;}
+.mrg3t		{margin-top: 6em;}
+
+.mrg1b		{margin-bottom: 2em;}
+.mrg2b		{margin-bottom: 4em;}
+.mrg3b		{margin-bottom: 6em;}
+
+
+/* float解除 */
+.clear		{ width: 100%; overflow:hidden;}
+
+
+/* テキスト関連 */
+.ta_c		{ text-align:center;}
+.ta_r		{ text-align: right;}
+.ta_l		{ text-align:left;}
+.tx_s		{ font-size:0.9em;}
+.tx_ss		{ font-size:0.8em;}
+.tx_b		{ font-size:1.2em;}
+.tx_bb		{ font-size:1.2em;}
+.kome		{ text-indent:-1em; padding-left:1em;}
+.kome2		{ text-indent:-1.8em; padding-left:2em;}
+.kome3		{ text-indent:-3em; padding-left:3em;}
+strong		{ font-weight:bolder;}
+sup			{ font-size: 0.7em; line-height:0;}
+
+
+/* list関連 */
+ul.dot 		{ list-style-position: outside; padding-left: 20px;}
+ul.dot li 	{list-style-type:disc;}
+ol 			{ list-style-position: outside; padding-left: 25px;}
+ol li 		{list-style-type: decimal;}
+
+
+/* テーブル */
+table.tbc 	{ border-collapse: collapse;}
+table.tbc, table.tbc td, table.tbc th { border: 1px #E5E5E5 solid; word-break:break-all;}
+table.tbc td,table.tbc th { padding: 3px 5px;}
+table.tbc th { background-color:#F2F2F2;}
+table.tx_c td, table.tx_c th, tr.tx_c td, tr.tx_c th, td.tx_c, th.tx_c { text-align:center;}
+table.tx_l td, table.tx_l th, tr.tx_l td, tr.tx_l th, td.tx_l, th.tx_l { text-align:left;}
+table.tx_r td, table.tx_r th, tr.tx_r td, tr.tx_r th, td.tx_r, th.tx_r { text-align:right;}
+.tv_t 		{ vertical-align:top;}
+.tv_m 		{ vertical-align: middle;}
+.tv_b 		{ vertical-align: bottom;}
+
+
+/* 装飾関連 */
+.bt { border-top:1px dotted #CCC; padding-top: 0.5em;}
+.bb { border-bottom:1px dotted #CCC; padding-bottom: 0.5em; margin-bottom: 0.5em;}
